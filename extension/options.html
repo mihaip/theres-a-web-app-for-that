@@ -116,9 +116,10 @@
           setTimeout(processHistoryItems.bind(this, endIndex, historyItems), 0);
       }
 
+      // TOOD(mihaip): re-visit chrome.history.search parameters
       chrome.history.search({
           'text': '',
-          'maxResults': 100,//1000000000,
+          'maxResults': 1000000000,
           'startTime': 0
       },
       processHistoryItems.bind(this, 0));
