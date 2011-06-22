@@ -43,7 +43,7 @@ App.fromUrl = function(url) {
     var appHostname = appPattern[0];
     var appPath = appPattern[1];
 
-    if (endsWith(urlHostname, appHostname) &&
+    if ((urlHostname == appHostname || endsWith(urlHostname, '.' + appHostname)) &&
         (!appPath || startsWith(urlPath, appPath))) {
       return new App(appId);
     }
