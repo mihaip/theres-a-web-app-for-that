@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tests</title>
+  <script src="url-patterns.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+<script>
+function assertApp(url, appId) {
+  console.log('Testing ' + url);
+  var app = App.fromUrl(url);
+  if (!appId && app) {
+    console.error('  expected to find no app, instead found ' + app.appId);
+  } else if (appId && !app) {
+    console.error('  expected to find ' + appId + ', but didn\'t find anything');
+  } else if (appId != app.appId) {
+    console.error('  expected to find ' + appId + ', found ' + app.appId);
+  } else {
+    console.log('  PASS');
+  }
+}
+
+// Basic test (no trailing slash, trailing slash, path)
+assertApp('http://www.nytimes.com', 'ecmphppfkcfflgglcokcbdkofpfegoel');
+assertApp('http://www.nytimes.com/', 'ecmphppfkcfflgglcokcbdkofpfegoel');
+assertApp('http://www.nytimes.com/2011/06/02/technology/02google.html', 'ecmphppfkcfflgglcokcbdkofpfegoel');
+
+// HTTP vs. HTTPS
+assertApp('http://mail.google.com', 'pjkljhegncpnkpknbcohdijeoejaedia');
+assertApp('https://mail.google.com', 'pjkljhegncpnkpknbcohdijeoejaedia');
+
+// Apps that require a matching path
+assertApp('http://www.google.com/reader', 'pjjhlfkghdhmijklfnahfkpgmhcmfgcm');
+assertApp('http://www.google.com/reader/', 'pjjhlfkghdhmijklfnahfkpgmhcmfgcm');
+assertApp('http://www.google.com/reader/view', 'pjjhlfkghdhmijklfnahfkpgmhcmfgcm');
+assertApp('http://www.google.com/reader/view/#overview-page', 'pjjhlfkghdhmijklfnahfkpgmhcmfgcm');
+
+// Another app on www.google.com differentiated by the path
+assertApp('http://www.google.com/calendar', 'ejjicmeblgpmajnghnpcppodonldlgfn');
+
+// Subdomain matching
+assertApp('http://my.jolicloud.com', 'nfakdllpdfjjbfommlcnfkedmbigkfdo');
+assertApp('http://jolicloud.com', 'nfakdllpdfjjbfommlcnfkedmbigkfdo');
+assertApp('http://www.jolicloud.com', 'nfakdllpdfjjbfommlcnfkedmbigkfdo');
+
+</script>
+
+</body>
+</html>

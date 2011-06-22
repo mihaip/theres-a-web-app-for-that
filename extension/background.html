@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+  <head>
+    <script src="url-patterns.js"></script>
+    <script src="app.js"></script>
+    <script>
+      chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
+        var app = App.fromUrl(tab.url);
+        if (app) {
+          chrome.pageAction.show(tabId);
+        }
+      });
+
+      chrome.pageAction.onClicked.addListener(function(tab) {
+        var app = App.fromUrl(tab.url);
+        if (app) {
+          chrome.tabs.create({url: app.storeUrl});
+        }
+      });
+    </script>
+  </head>
+</html>
