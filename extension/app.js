@@ -38,6 +38,8 @@ App.fromUrl = function(url) {
   var urlHostname = urlParts[3];
   var urlPath = urlParts[5];
 
+  if (!urlHostname) return;
+
   for (var appId in URL_PATTERNS) {
     var appPattern = URL_PATTERNS[appId];
     var appHostname = appPattern[0];

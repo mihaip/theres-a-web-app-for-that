@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="url-patterns.js"></script>
+    <script src="app.js"></script>
+    <title>There's an app for that</title>
+    <style>
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 13px;
+        margin: 0;
+      }
+
+      h1 {
+        margin-top: 0;
+        background: #eee;
+        padding: .5em;
+        border-bottom: solid 1px #ccc;
+      }
+
+      .container {
+        margin: 8px;
+      }
+
+      #loading-indicator {
+        display: none;
+      }
+
+      .loading #loading-indicator {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -15px;
+        margin-left: -60px;
+        width: 120px;
+        height: 30px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        background: #000;
+        color: #fff;
+        opacity: 0.5;
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+      .loading #apps {
+        display: none;
+      }
+    </style>
+  </head>
+  <body class="loading">
+    <h1>There's an app for that</h1>
+    <div id="loading-indicator">Loading...</div>
+
+    <div class="container">
+      <table id="apps">
+        <thead>
+          <tr>
+            <th>App</th>
+            <th>Visits</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+    <script>
+      var appRowsByAppId = {};
+      function displayApp(app, historyItem) {
+        document.body.classList.remove('loading');
+        if (app.appId in appRowsByAppId) {
+          var appRow = appRowsByAppId[app.appId];
+          appRow.visitCount++;
+          appRow.visitCountNode.textContent = appRow.visitCount;
+          return;
+        }
+
+        var appRow = appRowsByAppId[app.appId] = {
+          node: document.createElement('tr'),
+          appNode: document.createElement('td'),
+          visitCount: 1,
+          visitCountNode: document.createElement('td')
+        };
+
+        var appLinkNode = document.createElement('a');
+        appLinkNode.href = app.storeUrl;
+        appLinkNode.target = '_blank';
+        appLinkNode.textContent = historyItem.title;
+        appRow.appNode.appendChild(appLinkNode);
+        appRow.visitCountNode.textContent = appRow.visitCount;
+
+        appRow.node.appendChild(appRow.appNode);
+        appRow.node.appendChild(appRow.visitCountNode);
+
+        document.getElementById('apps').tBodies[0].appendChild(appRow.node);
+      }
+
+      function processHistoryItems(startIndex, historyItems) {
+        var endIndex = startIndex + 1000;
+        var isLastChunk = false;
+        if (endIndex > historyItems.length) {
+          isLastChunk = true;
+          endIndex = historyItems.length;
+        }
+        for (var i = startIndex; i < endIndex; i++) {
+          var historyItem = historyItems[i];
+          var app = App.fromUrl(historyItem.url);
+          if (app) displayApp(app, historyItem)
+        }
+
+        if (!isLastChunk)
+          setTimeout(processHistoryItems.bind(this, endIndex, historyItems), 0);
+      }
+
+      chrome.history.search({
+          'text': '',
+          'maxResults': 100,//1000000000,
+          'startTime': 0
+      },
+      processHistoryItems.bind(this, 0));
+    </script>
+  </head>
+</html>
