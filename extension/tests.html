@@ -14,7 +14,7 @@ function assertApp(url, appId) {
     console.error('  expected to find no app, instead found ' + app.appId);
   } else if (appId && !app) {
     console.error('  expected to find ' + appId + ', but didn\'t find anything');
-  } else if (appId != app.appId) {
+  } else if (app && appId != app.appId) {
     console.error('  expected to find ' + appId + ', found ' + app.appId);
   } else {
     console.log('  PASS');
@@ -43,6 +43,7 @@ assertApp('http://www.google.com/calendar', 'ejjicmeblgpmajnghnpcppodonldlgfn');
 assertApp('http://my.jolicloud.com', 'nfakdllpdfjjbfommlcnfkedmbigkfdo');
 assertApp('http://jolicloud.com', 'nfakdllpdfjjbfommlcnfkedmbigkfdo');
 assertApp('http://www.jolicloud.com', 'nfakdllpdfjjbfommlcnfkedmbigkfdo');
+assertApp('http://notjolicloud.com', undefined);
 
 </script>
 
