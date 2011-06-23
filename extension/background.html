@@ -3,6 +3,11 @@
     <script src="app-data.js"></script>
     <script src="app.js"></script>
     <script>
+      if (!localStorage.isFirstLaunch) {
+        localStorage.isFirstLaunch = true;
+        chrome.tabs.create({'url': 'options.html'});
+      }
+
       chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
         var app = App.fromUrl(tab.url);
         if (!app) return;
