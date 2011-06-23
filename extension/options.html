@@ -49,6 +49,35 @@
       .loading #apps {
         display: none;
       }
+
+      .app {
+        text-align: center;
+      }
+
+      .app a {
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 10px;
+        float: left;
+        width: 160px;
+        height: 160px;
+        color: #333;
+      }
+
+      .app a:hover {
+        background: #eee;
+      }
+
+      .app .title {
+        padding-top: 2px;
+        font-weight: bold;
+      }
+
+      .app .visits {
+        color: #999;
+        font-size: 90%;
+      }
     </style>
   </head>
   <body class="loading">
@@ -56,47 +85,50 @@
     <div id="loading-indicator">Loading...</div>
 
     <div class="container">
-      <table id="apps">
-        <thead>
-          <tr>
-            <th>App</th>
-            <th>Visits</th>
-          </tr>
-        </thead>
-        <tbody>
-        </tbody>
-      </table>
+      <div id="apps">
+      </div>
     </div>
 
     <script>
-      var appRowsByAppId = {};
+      var appCellsByAppId = {};
       function displayApp(app, historyItem) {
         document.body.classList.remove('loading');
-        if (app.appId in appRowsByAppId) {
-          var appRow = appRowsByAppId[app.appId];
-          appRow.visitCount++;
-          appRow.visitCountNode.textContent = appRow.visitCount;
+        if (app.appId in appCellsByAppId) {
+          var appCell = appCellsByAppId[app.appId];
+          appCell.visitCount++;
+          appCell.visitCountNode.textContent = appCell.visitCount + ' visits';
           return;
         }
 
-        var appRow = appRowsByAppId[app.appId] = {
-          node: document.createElement('tr'),
-          appNode: document.createElement('td'),
+        var appCell = appCellsByAppId[app.appId] = {
+          node: document.createElement('div'),
           visitCount: 1,
-          visitCountNode: document.createElement('td')
+          visitCountNode: document.createElement('div')
         };
+
+        appCell.node.classList.add('app');
 
         var appLinkNode = document.createElement('a');
         appLinkNode.href = app.getStoreUrl();
         appLinkNode.target = '_blank';
-        appLinkNode.textContent = app.title;
-        appRow.appNode.appendChild(appLinkNode);
-        appRow.visitCountNode.textContent = appRow.visitCount;
+        appCell.node.appendChild(appLinkNode);
 
-        appRow.node.appendChild(appRow.appNode);
-        appRow.node.appendChild(appRow.visitCountNode);
+        var appIconNode = document.createElement('img');
+        appIconNode.width = 128;
+        appIconNode.height = 128;
+        appIconNode.src = app.iconUrl;
+        appLinkNode.appendChild(appIconNode);
 
-        document.getElementById('apps').tBodies[0].appendChild(appRow.node);
+        var appTitleNode = document.createElement('div');
+        appTitleNode.classList.add('title');
+        appTitleNode.textContent = app.title;
+        appLinkNode.appendChild(appTitleNode);
+
+        appCell.visitCountNode.classList.add('visits');
+        appCell.visitCountNode.textContent = '1 visit';
+        appLinkNode.appendChild(appCell.visitCountNode);
+
+        document.getElementById('apps').appendChild(appCell.node);
       }
 
       function processHistoryItems(startIndex, historyItems) {

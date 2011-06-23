@@ -31,7 +31,7 @@ function startsWith(str, prefix) {
 function App(appData) {
   this.appId = appData.app_id;
   this.title = appData.title;
-  this.iconUrl = appData.iconUrl;
+  this.iconUrl = appData.icon_url;
   this.matchUrls_ = appData.match_urls;
 }
 
