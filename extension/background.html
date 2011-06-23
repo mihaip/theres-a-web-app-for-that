@@ -5,16 +5,30 @@
     <script>
       chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
         var app = App.fromUrl(tab.url);
-        if (app) {
+        if (!app) return;
+
+        chrome.management.get(app.appId, function(extensionInfo) {
+          if (extensionInfo) {
+            chrome.pageAction.setIcon({tabId: tabId, path: 'icon-installed19.png'});
+            chrome.pageAction.setTitle({tabId: tabId, title: 'You have an app installed for this site'});
+          } else {
+            chrome.pageAction.setIcon({tabId: tabId, path: 'icon19.png'});
+            chrome.pageAction.setTitle({tabId: tabId, title: 'There\'s an app for this site'});
+          }
           chrome.pageAction.show(tabId);
-        }
+        });
       });
 
       chrome.pageAction.onClicked.addListener(function(tab) {
         var app = App.fromUrl(tab.url);
-        if (app) {
-          chrome.tabs.create({url: app.getStoreUrl()});
-        }
+        if (!app) return;
+        chrome.management.get(app.appId, function(extensionInfo) {
+          if (extensionInfo) {
+            chrome.management.launchApp(app.appId);
+          } else {
+            chrome.tabs.create({url: app.getStoreUrl()});
+          }
+        });
       });
     </script>
   </head>

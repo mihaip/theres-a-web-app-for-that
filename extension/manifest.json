@@ -8,5 +8,5 @@
     "default_icon": "icon19.png",
     "default_title": "Install app for this website"
   },
-  "permissions": [ "tabs", "history" ]
+  "permissions": [ "tabs", "history", "management" ]
 }
