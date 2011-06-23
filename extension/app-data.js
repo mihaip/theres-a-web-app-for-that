@@ -555,19 +555,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "psykopaint.com",
-        "/index.html"
-      ],
-      [
-        "psykopaint.com",
-        "/gallery.html"
-      ],
-      [
-        "psykopaint.com",
-        "/painter.html"
-      ],
-      [
-        "psykopaint.com",
-        "/blog"
+        ""
       ]
     ],
     "app_id": "pgjchkcfmigkkhedgjedmffdepgmpfil",
@@ -597,11 +585,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "huffingtonpost.com",
-        "/NewsGlide"
-      ],
-      [
-        "huffingtonpost.com",
-        "/ajax/chromeapp/index.php"
+        ""
       ]
     ],
     "app_id": "khjialelnkjdomiblmnpcpjongleegef",
@@ -627,10 +611,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "box.net",
-        "/sso/google_chrome_web_store"
-      ],
-      [
-        "box.net",
         ""
       ]
     ],
@@ -654,10 +634,6 @@ var APP_DATA = [
       [
         "chrometheme.net",
         ""
-      ],
-      [
-        "chrometheme.net",
-        "/chrome-theme-creator-online.html"
       ]
     ],
     "app_id": "akpelnjfckgfiplcikojhomllgombffc",
@@ -666,10 +642,6 @@ var APP_DATA = [
   {
     "icon_url": "http://lh5.ggpht.com/dBSh8DQHLe8yIRR2FB4GKQ1NrsnTZuzDsX4rtT6lr4sM7g9rbkMYnz36SPJfcHpSbXTFW85Uovw",
     "match_urls": [
-      [
-        "todo.ly",
-        "/chrome"
-      ],
       [
         "todo.ly",
         ""
@@ -719,7 +691,7 @@ var APP_DATA = [
     "icon_url": "http://lh5.ggpht.com/piIXoZ0lIg2FpFRV8osR-UdpSXGgMTfSC6JZERRGw1G1fguDVkxWnqve1rBiQhom0Sm-4_ve",
     "match_urls": [
       [
-        "chrome.wunderground.com",
+        "wunderground.com",
         ""
       ]
     ],
@@ -741,7 +713,7 @@ var APP_DATA = [
     "icon_url": "http://lh3.ggpht.com/dqF90CN4GwimuHkrCqIfU2djDwn2y8jcD-94UJRTRE_4OgP4EIpJLIaiDWmPzjB3Moq4r8ze",
     "match_urls": [
       [
-        "chrome.popsci.com",
+        "popsci.com",
         ""
       ]
     ],
@@ -802,7 +774,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "crackle.com",
-        "/chromewebapp"
+        ""
       ]
     ],
     "app_id": "ibfamoapbmmmlknoopmmfofgladlinic",
@@ -813,7 +785,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "chromeplay.com",
-        "/app.php"
+        ""
       ]
     ],
     "app_id": "khpikpdaalmlcipfphefaajfiofglcma",
@@ -860,11 +832,7 @@ var APP_DATA = [
     "icon_url": "http://lh5.ggpht.com/pHBsN9EO_MgW4Hg6weA3ZkXv-s5elQwgIpuXJj-thRlvqGmQoSluB6AaOfqQDuRrvw9_1NoU",
     "match_urls": [
       [
-        "wwws.mint.com",
-        "/overview.event"
-      ],
-      [
-        "wwws.mint.com",
+        "mint.com",
         ""
       ]
     ],
@@ -974,10 +942,6 @@ var APP_DATA = [
       [
         "flyordie.com",
         ""
-      ],
-      [
-        "flyordie.com",
-        "/games/sites/chrome/curling.html"
       ]
     ],
     "app_id": "nhalnajmigjnpjpdbpkpgfhekbjmolhp",
@@ -989,10 +953,6 @@ var APP_DATA = [
       [
         "graphicly.com",
         ""
-      ],
-      [
-        "chrome.graphicly.com",
-        ""
       ]
     ],
     "app_id": "bfahkchgjncmgadmplfkeancoeljcmhp",
@@ -1003,7 +963,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "bbcgoodfood.com",
-        "/chromeapp"
+        ""
       ]
     ],
     "app_id": "jnkffnoliaheoidfeejcmnidkkgilkja",
@@ -1369,7 +1329,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "tvtoolbar.org",
-        "/tvtoolbar/TVg/indexbig.php"
+        ""
       ]
     ],
     "app_id": "oiodjcfboomhnbbmoimodpahebopdagm",
@@ -1391,7 +1351,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "postpost.com",
-        "/chrome.html"
+        ""
       ]
     ],
     "app_id": "ppljepfclkbpmkclbopgnfajoenjonae",
@@ -1400,10 +1360,6 @@ var APP_DATA = [
   {
     "icon_url": "http://lh4.ggpht.com/_r-xAVvKh6lCybTDO_xPac4cnHm_CwW0DvPYcB7S5xxOa0s9HVRSQCOxTx4DyduW12hOQQUQeA",
     "match_urls": [
-      [
-        "mog.com",
-        "/chrome"
-      ],
       [
         "mog.com",
         ""
@@ -1428,10 +1384,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "meegenius.com",
-        ""
-      ],
-      [
-        "chrome.meegenius.com",
         ""
       ]
     ],
@@ -1505,7 +1457,7 @@ var APP_DATA = [
     "icon_url": "http://lh3.ggpht.com/7znfpT3ZYVbtHoFmcVNgvUPo9BNJeAaPxuuOQcXR1qaF6ZAsWXrTNhUVnEjr0qxidU04eUeLxg",
     "match_urls": [
       [
-        "chromefree.shredderchess.com",
+        "shredderchess.com",
         ""
       ]
     ],
@@ -1687,10 +1639,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "rummikub.com",
-        "/rummikubchrome.ashx"
-      ],
-      [
-        "rummikub.com",
         ""
       ]
     ],
@@ -1866,7 +1814,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "hangman.no",
-        "/chrome.html"
+        ""
       ]
     ],
     "app_id": "ekpfaaakmnhcembbiennfjiaodandmhg",
@@ -2325,7 +2273,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "diigo.com",
-        "/chromewebstore"
+        ""
       ]
     ],
     "app_id": "kipfakkakbicobflnnminhjjdkglgbmf",
@@ -2425,7 +2373,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "salon.com",
-        "/chrome"
+        ""
       ]
     ],
     "app_id": "hdfnaelmdjoicpekggmmafbcdhljalak",
@@ -2613,7 +2561,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "farmville.com",
-        "/index.php"
+        ""
       ]
     ],
     "app_id": "jchlepkjiaohpppcjacoldhlidbcfhan",
@@ -3052,11 +3000,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "espncricinfo.com",
-        "/ci/content/chrome"
-      ],
-      [
-        "espncricinfo.com",
-        "/chrome"
+        ""
       ]
     ],
     "app_id": "dlklinjgampohhihndkofhhaahoicoip",
@@ -3147,11 +3091,7 @@ var APP_DATA = [
     "icon_url": "http://lh6.ggpht.com/MAJWAoPLrTdfM8dUR3EiW3b_Cdub43epsRDNXQ0Zlq38ef8mm_1AlcFVzr_y0jSn3FpbcG9S3M4",
     "match_urls": [
       [
-        "chrome.kodingen.com",
-        "/app"
-      ],
-      [
-        "chrome.kodingen.com",
+        "kodingen.com",
         ""
       ]
     ],
@@ -3175,10 +3115,6 @@ var APP_DATA = [
       [
         "kidoz.net",
         ""
-      ],
-      [
-        "kidoz.net",
-        "/apps/chrome/kidoztv_chrome.html"
       ]
     ],
     "app_id": "jokdeafnhahffanabnbjjjjmoechjklc",
@@ -3236,12 +3172,8 @@ var APP_DATA = [
     "icon_url": "http://lh4.ggpht.com/m5KH7Hg5-hLlTmPVh65hjm1YUX7SP5ydRdAYwgQXtmxoc-SMZy72jn6BHaxI-mTrMUpiHlxqMUI",
     "match_urls": [
       [
-        "chrome.fraboom.com",
+        "fraboom.com",
         ""
-      ],
-      [
-        "chrome.fraboom.com",
-        "/lite"
       ]
     ],
     "app_id": "nfbhkongonlhccnegilgckgejgigdfkm",
@@ -3252,7 +3184,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "trillian.im",
-        "/chrome"
+        ""
       ]
     ],
     "app_id": "ggmpcjeojalofoofdhnblpcalbhlkdjg",
@@ -3331,10 +3263,6 @@ var APP_DATA = [
   {
     "icon_url": "http://lh5.ggpht.com/NqjnVvDYwzMV14EIHgdXfLXfzpmlA0OOKq9LbfvwEMBnv_l3WsIznevunDRJNKXodk3iet_xkw",
     "match_urls": [
-      [
-        "producteev.com",
-        "/landing_chrome.php"
-      ],
       [
         "producteev.com",
         ""
@@ -3434,10 +3362,6 @@ var APP_DATA = [
       [
         "rubbishbooks.com",
         ""
-      ],
-      [
-        "rubbishbooks.com",
-        "/rb"
       ]
     ],
     "app_id": "gklfihmmokekepifllhpdlkobiplpklj",
@@ -3630,10 +3554,6 @@ var APP_DATA = [
       [
         "mynetdiary.com",
         ""
-      ],
-      [
-        "mynetdiary.com",
-        "/chromeStart.do"
       ]
     ],
     "app_id": "bjackipnjjjefeppmpbgcdefaplneopj",
@@ -3687,7 +3607,7 @@ var APP_DATA = [
     "icon_url": "http://lh6.ggpht.com/kGogj4Gfpq68jiqZC3tUvafQHXjwLJL7ObrgEdTh3VHm8dwv2lS4NbGUs-QSqZru6kl1kBRAMQ",
     "match_urls": [
       [
-        "chrome.fanfeedr.com",
+        "fanfeedr.com",
         ""
       ]
     ],
@@ -3737,14 +3657,6 @@ var APP_DATA = [
       [
         "inmag.yoono.com",
         ""
-      ],
-      [
-        "inmag.yoono.com",
-        "/socialzine/mag.html"
-      ],
-      [
-        "inmag.yoono.com",
-        "/index.html"
       ]
     ],
     "app_id": "ioegfnedadhdmgennlpeoicahkhgdlla",
@@ -3789,18 +3701,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "goodnoows.com",
-        ""
-      ],
-      [
-        "dev.goodnoows.com",
-        ""
-      ],
-      [
-        "chrome.goodnoows.com",
-        ""
-      ],
-      [
-        "app.goodnoows.com",
         ""
       ]
     ],
@@ -3904,7 +3804,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "musicstratus.com",
-        "/index.php"
+        ""
       ]
     ],
     "app_id": "akjffpnkgdhnoabbaelgkkbheempmnff",
@@ -3937,7 +3837,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "groups.google.com",
-        "/forum"
+        ""
       ]
     ],
     "app_id": "bfmbadcfdhiklafcdohpfphhhakmiakk",
@@ -4055,7 +3955,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "sparkflashgames.com",
-        "/qwop/index.html"
+        ""
       ]
     ],
     "app_id": "ibkaojdjakgamgoekhacjkniecieeadk",
@@ -4185,10 +4085,6 @@ var APP_DATA = [
   {
     "icon_url": "http://lh3.ggpht.com/LpVgi50u_3scvXh90DrCe6p43InJYR-pviDUAoJaY8654UTNmaUl7AyXESrX0_wAqeXT5e8p",
     "match_urls": [
-      [
-        "friv.com",
-        "/chrome.html"
-      ],
       [
         "friv.com",
         ""
@@ -5023,7 +4919,7 @@ var APP_DATA = [
     "icon_url": "http://lh5.ggpht.com/FnX6AUlnUPYq455jhQsSVkgYwrrG5ByyakyFFL5J-AN9Ged1jAAVBWdseqXLB-uHECJlFLma",
     "match_urls": [
       [
-        "chrome.brainpop.com",
+        "brainpop.com",
         ""
       ]
     ],
@@ -5794,7 +5690,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "chess.com",
-        "/play/chrome"
+        ""
       ]
     ],
     "app_id": "jigmpephianlpnfdadfimdeiebbkoggb",
@@ -6610,10 +6506,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "blurb.com",
-        "/obt/index.html"
-      ],
-      [
-        "blurb.com",
         ""
       ]
     ],
@@ -6782,19 +6674,7 @@ var APP_DATA = [
     "icon_url": "http://lh5.ggpht.com/ywY22SB9tShaR0Iyxpu5BUiFfE5HeF8BQROcyhqtJPHRFrJtq7QusM3MPqamFloFS3-tSOgI",
     "match_urls": [
       [
-        "us1.admin.mailchimp.com",
-        ""
-      ],
-      [
-        "admin.mailchimp.com",
-        ""
-      ],
-      [
-        "login.mailchimp.com",
-        ""
-      ],
-      [
-        "us2.admin.mailchimp.com",
+        "mailchimp.com",
         ""
       ]
     ],
@@ -7453,11 +7333,7 @@ var APP_DATA = [
     "icon_url": "http://lh6.ggpht.com/L79HlCOL0mKXzsoYvZwJSI1hTAE33c6ZogpfysdO_9bEAnYX0bfVKCpPAszX40l-Cr30uIyp",
     "match_urls": [
       [
-        "express.paltalk.com",
-        "/index.html"
-      ],
-      [
-        "express.paltalk.com",
+        "paltalk.com",
         ""
       ]
     ],
@@ -9371,10 +9247,6 @@ var APP_DATA = [
       [
         "hwp.awardspace.info",
         "/forkids"
-      ],
-      [
-        "hwp.awardspace.info",
-        "/forkids/index.html"
       ]
     ],
     "app_id": "hpfpkpmagabebpiamncfeapbnkmkbccj",
@@ -9476,10 +9348,6 @@ var APP_DATA = [
       [
         "thatmusicapp.com",
         ""
-      ],
-      [
-        "thatmusicapp.com",
-        "/app/desktop/index.html"
       ]
     ],
     "app_id": "ckcigpkibflpneekkpeoeikiddopklbg",
