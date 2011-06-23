@@ -865,20 +865,8 @@ var APP_DATA = [
     "icon_url": "http://lh5.ggpht.com/xZNpeq75wtIQ7pTSMmaIVIxBP36eRPPlfmG-4KbJqbhrgBb5rxZbbRnP_CYs9PVumxNddPu5",
     "match_urls": [
       [
-        "offline.lucidchart.com",
-        ""
-      ],
-      [
-        "staging.lucidchart.com",
-        ""
-      ],
-      [
         "lucidchart.com",
         ""
-      ],
-      [
-        "lucidchart.com",
-        "/documents/app"
       ]
     ],
     "app_id": "apboafhkiegglekeafbckfjldecefkhn",
@@ -920,14 +908,6 @@ var APP_DATA = [
   {
     "icon_url": "http://lh6.ggpht.com/YXZBVGJ6X5zYRUrSlbqkXPSaz2xBC2wLvaYupiErMEEusgIfQU-eHmra0F8ptQjw55qbGS60JiM",
     "match_urls": [
-      [
-        "es.strikermanager.com",
-        ""
-      ],
-      [
-        "uk.strikermanager.com",
-        ""
-      ],
       [
         "strikermanager.com",
         ""
@@ -974,14 +954,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "mspot.com",
-        ""
-      ],
-      [
-        "mspot.com",
-        "/music/home"
-      ],
-      [
-        "cdn.mspot.com",
         ""
       ]
     ],
@@ -1041,10 +1013,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "runescape.com",
-        "/a=569/create"
-      ],
-      [
-        "runescape.com",
         ""
       ]
     ],
@@ -1057,10 +1025,6 @@ var APP_DATA = [
       [
         "zyn.ga",
         ""
-      ],
-      [
-        "zyn.ga",
-        "/cityvillechrome"
       ]
     ],
     "app_id": "kgkinlmadnbppnmldahlkmpkopceiepj",
@@ -1083,10 +1047,6 @@ var APP_DATA = [
       [
         "wgt.com",
         ""
-      ],
-      [
-        "wgt.com",
-        "/home.aspx"
       ]
     ],
     "app_id": "mpedbpkelbhcbkdaglillalioeeekbpb",
@@ -1117,10 +1077,6 @@ var APP_DATA = [
   {
     "icon_url": "http://lh4.ggpht.com/_X10fiJYO3clG9QysubiW_gFPo9KlNpJbm235WAL9vW4VVnrAIjMPeqxzGCI0BkxwDGwbgQpeIw",
     "match_urls": [
-      [
-        "rememberthemilk.com",
-        "/login/app/launch"
-      ],
       [
         "rememberthemilk.com",
         ""
@@ -1255,10 +1211,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "hootsuite.com",
-        "/dashboard"
-      ],
-      [
-        "hootsuite.com",
         ""
       ]
     ],
@@ -1281,11 +1233,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "seesmic.com",
-        "/web"
-      ],
-      [
-        "seesmic.com",
-        "/w"
+        ""
       ]
     ],
     "app_id": "ikhnbijacmpeikpnoeddepkehmcofgbh",
@@ -1406,10 +1354,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "apps.wikihow.com",
-        "/survivalkit"
-      ],
-      [
-        "apps.wikihow.com",
         ""
       ]
     ],
@@ -1433,10 +1377,6 @@ var APP_DATA = [
       [
         "vyew.com",
         ""
-      ],
-      [
-        "vyew.com",
-        "/go/google"
       ]
     ],
     "app_id": "ogcldakngnllchlnncngiailfhidjjdp",
@@ -1501,10 +1441,6 @@ var APP_DATA = [
     "icon_url": "http://lh6.ggpht.com/s0MgNSlektWLc091MUDbmn3__Y8-RSNpOyFxIb4SQDssAeuFMMWoF24fFy7-VsWlghTGX5ytTkM",
     "match_urls": [
       [
-        "studio.stupeflix.com",
-        "/editor/create"
-      ],
-      [
         "stupeflix.com",
         ""
       ]
@@ -1539,7 +1475,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "pixlr.com",
-        "/editor"
+        ""
       ]
     ],
     "app_id": "icmaknaampgiegkcjlimdiidlhopknpk",
@@ -1548,10 +1484,6 @@ var APP_DATA = [
   {
     "icon_url": "http://lh5.ggpht.com/oa5dm2u47g7lqEO66xCqQ-AxDC6M_S1HiV_l1I0lZOIUf8hp2HWa4a1T89sMLBUnVRRYt1Za_g",
     "match_urls": [
-      [
-        "farmerama.bigpoint.com",
-        "/cws.php"
-      ],
       [
         "farmerama.bigpoint.com",
         ""
@@ -1577,10 +1509,6 @@ var APP_DATA = [
       [
         "creately.com",
         ""
-      ],
-      [
-        "creately.com",
-        "/openid/google/login"
       ]
     ],
     "app_id": "figjjaggcjcojopflaabmebmocabdglm",
@@ -1592,10 +1520,6 @@ var APP_DATA = [
       [
         "largedocument.com",
         ""
-      ],
-      [
-        "largedocument.com",
-        "/LargeDocumentUploader_Web_2_0_0.swf"
       ]
     ],
     "app_id": "mccldfhipgghpkkamlldhiajioepaklb",
@@ -1606,7 +1530,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "wikihood.com",
-        "/web"
+        ""
       ]
     ],
     "app_id": "jkgifejmcbpindphhlicjdholopmndon",
@@ -1628,7 +1552,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "vimeo.com",
-        "/couchmode"
+        ""
       ]
     ],
     "app_id": "hjkdhkejcnlmkfdodbkdkelefnkobfif",
@@ -1650,10 +1574,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "shownto.me",
-        "/music/player"
-      ],
-      [
-        "music.shownto.me",
         ""
       ]
     ],
@@ -1665,7 +1585,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "b.hatena.ne.jp",
-        "/viewer"
+        ""
       ]
     ],
     "app_id": "kgdndolinendndjobelejjaphbihagof",
@@ -1675,15 +1595,7 @@ var APP_DATA = [
     "icon_url": "http://lh3.ggpht.com/ReifgmYFNlWUNIJi39KvJozI_lYutO_SjtJ8ONtRmRMjSBSx7jdtzpi2VB6gL5qaIahvE3rqaQ",
     "match_urls": [
       [
-        "mspotmovies.com",
-        ""
-      ],
-      [
         "mspot.com",
-        ""
-      ],
-      [
-        "cdn.mspot.com",
         ""
       ]
     ],
@@ -1696,10 +1608,6 @@ var APP_DATA = [
       [
         "graph.tk",
         ""
-      ],
-      [
-        "graph.tk",
-        "/about"
       ]
     ],
     "app_id": "nkhkaamdeplibnmodcgodlkghphdbahk",
@@ -1762,11 +1670,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "wikinvest.com",
-        "/account"
-      ],
-      [
-        "wikinvest.com",
-        "/portfolio"
+        ""
       ]
     ],
     "app_id": "pbpkgmnajebobcebngnagdabphfmooej",
@@ -1777,7 +1681,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "sumopaint.com",
-        "/app"
+        ""
       ]
     ],
     "app_id": "dpgjihldbpodlmnjolekemlfbcajnmod",
@@ -1787,11 +1691,7 @@ var APP_DATA = [
     "icon_url": "http://lh5.ggpht.com/Y4U6oD88E1pmvp9HOSCYzCuhPrRLZTcwDiUrVbiAl2sFVdZaQd9RfT4Nn070gen5w21KVsUUpQ",
     "match_urls": [
       [
-        "es.ibasketmanager.com",
-        ""
-      ],
-      [
-        "us.ibasketmanager.com",
+        "ibasketmanager.com",
         ""
       ]
     ],
@@ -1826,10 +1726,6 @@ var APP_DATA = [
       [
         "72.apps.roozzstore.com",
         ""
-      ],
-      [
-        "72.apps.roozzstore.com",
-        "/OrangeFPS.htm"
       ]
     ],
     "app_id": "ifnckhopllcmleegegheacblhehfifei",
@@ -1839,7 +1735,7 @@ var APP_DATA = [
     "icon_url": "http://lh6.ggpht.com/LwwsBHZxuZF7QdFaqcuWdHnHvQTuYZ_77YXb87DLJISPS1PXr1Mcg1p1b_EweLxDKS1aUd-heg",
     "match_urls": [
       [
-        "my.lovelycharts.com",
+        "lovelycharts.com",
         ""
       ]
     ],
@@ -1895,7 +1791,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "playfish.com",
-        "/play"
+        ""
       ]
     ],
     "app_id": "cdbgemcipilgnnaeoagkpimioideoahp",
@@ -1905,8 +1801,8 @@ var APP_DATA = [
     "icon_url": "http://lh5.ggpht.com/PqoONaqsC873cBqik09R5egd90OLpmym9k5T88NVfJZEbFx-OHWCA3DjxGXfW44_eQkJSJi5PQ",
     "match_urls": [
       [
-        "anywhere.ebay.com",
-        "/apps/deals"
+        "ebay.com",
+        ""
       ]
     ],
     "app_id": "pllkgmcojhajjmojfoagiegoibjognlc",
@@ -1918,14 +1814,6 @@ var APP_DATA = [
       [
         "profiletechnology.net",
         ""
-      ],
-      [
-        "67.228.0.194",
-        ""
-      ],
-      [
-        "profiletechnology.net",
-        "/iq/googlewebapp.html"
       ]
     ],
     "app_id": "bhjimbhopannfldookjimpcjidemclah",
@@ -1936,7 +1824,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "pbskids.org",
-        "/video"
+        ""
       ]
     ],
     "app_id": "befakmnabbbjpmnmieehjkoadglnglkb",
@@ -1968,22 +1856,6 @@ var APP_DATA = [
     "icon_url": "http://lh5.ggpht.com/JXwnK3lwm7dYjMhMbpRViBCU0KVSiTEUoCCqEb4bEkGNfA-05hDO1swkkrEKw705hUbGrzCd",
     "match_urls": [
       [
-        "forum.planeto.com",
-        ""
-      ],
-      [
-        "create.planeto.com",
-        ""
-      ],
-      [
-        "blog.planeto.com",
-        ""
-      ],
-      [
-        "play.planeto.com",
-        ""
-      ],
-      [
         "planeto.com",
         ""
       ]
@@ -1994,10 +1866,6 @@ var APP_DATA = [
   {
     "icon_url": "http://lh6.ggpht.com/ch4Ya8H6_v7jeHjR3yaZTSKW9uSKKrNMCdOlxNwI7rUJHLPCxGrDr6xeJq6sanngBD3NPIBcCw",
     "match_urls": [
-      [
-        "orbited.text4freeonline.com",
-        ""
-      ],
       [
         "text4freeonline.com",
         ""
@@ -2010,199 +1878,7 @@ var APP_DATA = [
     "icon_url": "http://lh5.ggpht.com/Tfzv3foIH0s3MvF7MbcuiDe0KbzDE2qL2SpIHZ_UEQfi2aMK3YButFb3yBrv8km2XjaubF8_EA",
     "match_urls": [
       [
-        "es3.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "int12.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "it1.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "int7.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "int10.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "pl1.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "tr4.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "tr1.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "tr2.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "tr3.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "us3.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "int3.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "int6.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "int2.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "cz2.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "es1.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "it2.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "cz1.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "int1.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "fr2.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "ru2.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "it3.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "ru1.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "fr3.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "gb1.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "ru4.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "pl2.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "de1.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "int8.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "test1.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "int9.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "int11.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "us2.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "de3.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "int5.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "pl3.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "us4.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "ru5.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "us1.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
         "darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "de4.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "fr1.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "fr4.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "es2.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "ru3.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "de2.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "darkorbit.bigpoint.com",
-        "/cws.php"
-      ],
-      [
-        "tr5.darkorbit.bigpoint.com",
-        ""
-      ],
-      [
-        "int4.darkorbit.bigpoint.com",
         ""
       ]
     ],
@@ -2283,10 +1959,6 @@ var APP_DATA = [
     "icon_url": "http://lh6.ggpht.com/XQsoyhjz7GB55IoUpSICC2_HIPeu4oSFuQ1ln9QQQZ5MBa0y689HMOYtIBP1gSSLvkYj6wldVQ",
     "match_urls": [
       [
-        "tv.revision3.com",
-        ""
-      ],
-      [
         "revision3.com",
         ""
       ]
@@ -2299,14 +1971,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "280slides.com",
-        "/Editor"
-      ],
-      [
-        "280slides.com",
-        ""
-      ],
-      [
-        "media.280slides.com",
         ""
       ]
     ],
@@ -2418,10 +2082,6 @@ var APP_DATA = [
       [
         "smartsheet.com",
         ""
-      ],
-      [
-        "smartsheet.com",
-        "/b/home"
       ]
     ],
     "app_id": "cindmhdfkimaeggbebfjkmkdfiohldbm",
@@ -2453,15 +2113,7 @@ var APP_DATA = [
     "icon_url": "http://lh4.ggpht.com/SNHQkXrZbTlYwly4LurFdkqare6uUcMwHO7BO4O3B_p5_l9CtrA9E3tCcIAZlQ4z9qEoEunKMA",
     "match_urls": [
       [
-        "help.waveaccounting.com",
-        ""
-      ],
-      [
         "waveaccounting.com",
-        ""
-      ],
-      [
-        "app.waveaccounting.com",
         ""
       ]
     ],
@@ -2665,14 +2317,6 @@ var APP_DATA = [
       [
         "rdio.com",
         ""
-      ],
-      [
-        "media.rd.io",
-        ""
-      ],
-      [
-        "m.rdio.com",
-        ""
       ]
     ],
     "app_id": "pchjhmiapbbphflbgejhigbmfmmgbngn",
@@ -2742,10 +2386,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "emailgame.baydin.com",
-        "/play"
-      ],
-      [
-        "emailgame.baydin.com",
         ""
       ],
       [
@@ -2805,7 +2445,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "causalitygame.com",
-        "/chrome/causality-chrome.html"
+        ""
       ]
     ],
     "app_id": "femoooemgmjaebeodbbikbkmhlafenpl",
@@ -2860,7 +2500,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "gradeguru.com",
-        "/sps/homePagenlu.do"
+        ""
       ]
     ],
     "app_id": "djeddmolchmaeklknocakoenenjhemab",
@@ -2869,10 +2509,6 @@ var APP_DATA = [
   {
     "icon_url": "http://lh4.ggpht.com/xaEaf7Jg7ymm9Og7HAb726N6zY2-DDvFae2EwPiWA5FOYFXIi51yh1fZDu6jKQmhFHCS0GQoXA",
     "match_urls": [
-      [
-        "carrotsticks.com",
-        "/play"
-      ],
       [
         "carrotsticks.com",
         ""
@@ -2956,7 +2592,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "kodakgallery.com",
-        "/gallery/creativeapps/preservationBooks/preservationBooks.jsp"
+        ""
       ]
     ],
     "app_id": "elkdoddjdgbbncgamdjbiijbmgkgdjhc",
@@ -3056,10 +2692,6 @@ var APP_DATA = [
       [
         "manymoon.com",
         ""
-      ],
-      [
-        "manymoon.com",
-        "/auth/openid"
       ]
     ],
     "app_id": "ajeeigigjapddbkkekjgpgolgodcpblc",
@@ -3070,7 +2702,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "cacoo.com",
-        "/signin/openid"
+        ""
       ]
     ],
     "app_id": "pcflmbddgcmomcfngehfhlajjapabojh",
@@ -3137,10 +2769,6 @@ var APP_DATA = [
       [
         "textsendr.com",
         ""
-      ],
-      [
-        "textsendr.com",
-        "/sent.php"
       ]
     ],
     "app_id": "ejgocgjichhbkknncchbobdlhkdkpbei",
@@ -3151,7 +2779,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "cashbasehq.com",
-        "/app"
+        ""
       ]
     ],
     "app_id": "klehkbljbmijfgbokipcjeialaonhjlc",
@@ -3217,10 +2845,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "the-deadline.appspot.com",
-        "/list"
-      ],
-      [
-        "the-deadline.appspot.com",
         ""
       ]
     ],
@@ -3232,7 +2856,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "chow.com",
-        "/apps/videos"
+        ""
       ]
     ],
     "app_id": "aocjepaaobddcpadldnfpionanhakecd",
@@ -3242,7 +2866,7 @@ var APP_DATA = [
     "icon_url": "http://lh3.ggpht.com/wUXc_UF1GqbrglgIan20KXFkUMYjPxRJ4n0-pAwD_i5zFH6UySOA_rsJJNWfxkiV5MegSX6ykQ",
     "match_urls": [
       [
-        "app.gantter.com",
+        "gantter.com",
         ""
       ]
     ],
@@ -3332,10 +2956,6 @@ var APP_DATA = [
       [
         "jagex.com",
         ""
-      ],
-      [
-        "waroflegends.com",
-        "/a=569/create"
       ],
       [
         "waroflegends.com",
@@ -3468,10 +3088,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "diary.com",
-        "/openid/start_google"
-      ],
-      [
-        "diary.com",
         ""
       ]
     ],
@@ -3504,12 +3120,8 @@ var APP_DATA = [
     "icon_url": "http://lh4.ggpht.com/KcmHXiLM5FcoT2Qzg8zXq-LQDdNATS_fjk6KisvEaE2j1cxf3SbMaqWU9VWV2NdiJVU4k0fMaQ",
     "match_urls": [
       [
-        "apps.live-documents.com",
-        "/docs"
-      ],
-      [
-        "apps.live-documents.com",
-        "/docs/googleLoginPage.do"
+        "live-documents.com",
+        ""
       ]
     ],
     "app_id": "amaifjdaecbdedhngkjojpkdnjndpcch",
@@ -3619,10 +3231,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "shiftedit.net",
-        "/home"
-      ],
-      [
-        "shiftedit.net",
         ""
       ]
     ],
@@ -3666,19 +3274,7 @@ var APP_DATA = [
     "icon_url": "http://lh6.ggpht.com/xgehSvNHJW5vqFojcoNsfpPNZutBkWEAPcF6Z9BkYAqBIcU2EMMfdzoxROy9kiaUA9Cu7JWjnXE",
     "match_urls": [
       [
-        "cbe002.chat.mibbit.com",
-        ""
-      ],
-      [
-        "02.chat.mibbit.com",
-        ""
-      ],
-      [
-        "chat.mibbit.com",
-        ""
-      ],
-      [
-        "cbe001.chat.mibbit.com",
+        "mibbit.com",
         ""
       ]
     ],
@@ -3903,10 +3499,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "momonote.com",
-        "/app"
-      ],
-      [
-        "momonote.com",
         ""
       ]
     ],
@@ -3916,10 +3508,6 @@ var APP_DATA = [
   {
     "icon_url": "http://lh4.ggpht.com/M5ZZZTn9IVm-VP5KcuKb5CVHSehFS-xhYb-ST1-ioG6m9W8Wgo5mEf-wjQCYFoeGKFz84OpQSZc",
     "match_urls": [
-      [
-        "secretbuilders.com",
-        "/ref"
-      ],
       [
         "secretbuilders.com",
         ""
