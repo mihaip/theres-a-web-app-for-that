@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="url-patterns.js"></script>
+    <script src="app-data.js"></script>
     <script src="app.js"></script>
     <title>There's an app for that</title>
     <style>
@@ -87,9 +87,9 @@
         };
 
         var appLinkNode = document.createElement('a');
-        appLinkNode.href = app.storeUrl;
+        appLinkNode.href = app.getStoreUrl();
         appLinkNode.target = '_blank';
-        appLinkNode.textContent = historyItem.title;
+        appLinkNode.textContent = app.title;
         appRow.appNode.appendChild(appLinkNode);
         appRow.visitCountNode.textContent = appRow.visitCount;
 
