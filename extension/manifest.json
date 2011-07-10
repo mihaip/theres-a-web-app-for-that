@@ -1,5 +1,5 @@
 {
-  "name": "There's an app for that",
+  "name": "There's a web app for that",
   "version": "1.0",
   "description": "Suggests apps from the Chrome Web Store based on websites you visit.",
   "background_page": "background.html",

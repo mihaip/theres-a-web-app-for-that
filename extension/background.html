@@ -23,7 +23,7 @@
             chrome.pageAction.setTitle({tabId: tabId, title: 'You have an app installed for this site'});
           } else {
             chrome.pageAction.setIcon({tabId: tabId, path: 'icon19.png'});
-            chrome.pageAction.setTitle({tabId: tabId, title: 'There\'s an app for this site'});
+            chrome.pageAction.setTitle({tabId: tabId, title: 'There\'s a Chrome Web Store app for this site'});
           }
           chrome.pageAction.show(tabId);
         });
