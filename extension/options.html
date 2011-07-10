@@ -144,15 +144,12 @@
         appCell.visitCountNode.textContent = '1 visit';
         appLinkNode.appendChild(appCell.visitCountNode);
 
-        chrome.management.get(app.appId, function(extensionInfo) {
-          var parentNode = document.getElementById('suggested-apps');
-          if (extensionInfo) {
-            parentNode = document.getElementById('installed-apps');
-          }
+        var isInstalled = app.appId in installedAppIds;
+        var parentNode = document.getElementById(
+            isInstalled ? 'installed-apps' : 'suggested-apps');
 
-          parentNode.querySelector('.app-list').appendChild(appCell.node);
-          parentNode.classList.remove('hidden');
-        });
+        parentNode.querySelector('.app-list').appendChild(appCell.node);
+        parentNode.classList.remove('hidden');
       }
 
       function processHistoryItems(startIndex, historyItems) {
@@ -172,13 +169,21 @@
           setTimeout(processHistoryItems.bind(this, endIndex, historyItems), 0);
       }
 
-      // TOOD(mihaip): re-visit chrome.history.search parameters
-      chrome.history.search({
-          'text': '',
-          'maxResults': 1000000000,
-          'startTime': 0
-          },
-          processHistoryItems.bind(this, 0));
+      var installedAppIds = {};
+      chrome.management.getAll(function(extensionInfos) {
+        extensionInfos.forEach(function(extensionInfo) {
+          installedAppIds[extensionInfo.id] = 1;
+        });
+
+        // TOOD(mihaip): re-visit chrome.history.search parameters
+        chrome.history.search({
+            'text': '',
+            'maxResults': 1000000000,
+            'startTime': 0
+            },
+            processHistoryItems.bind(this, 0));
+      });
+
     </script>
   </head>
 </html>
