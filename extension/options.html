@@ -14,8 +14,12 @@
       h1 {
         margin-top: 0;
         background: #eee;
-        padding: .5em;
+        padding: 12px;
         border-bottom: solid 1px #ccc;
+      }
+
+      .hidden {
+        display: none;
       }
 
       .container {
@@ -46,26 +50,18 @@
         padding: 10px;
       }
 
-      .loading #apps {
-        display: none;
+      .app-container {
+        overflow: hidden;
+      }
+
+      .app-container h2 {
+        border-bottom: solid 1px #ccc;
+        margin-top: 0;
+        padding: 4px 12px;
       }
 
       .app {
         text-align: center;
-      }
-
-      .app .installed-badge {
-        display: none;
-      }
-
-      .app.installed .installed-badge {
-        display: block;
-        width: 19px;
-        height: 19px;
-        background: url(icon-installed19.png);
-        position: absolute;
-        top: 20px;
-        right: 35px;
       }
 
       .app a {
@@ -99,9 +95,14 @@
     <h1>There's an app for that</h1>
     <div id="loading-indicator">Loading...</div>
 
-    <div class="container">
-      <div id="apps">
-      </div>
+    <div id="suggested-apps" class="hidden app-container">
+      <h2>Suggested apps</h2>
+      <div class="app-list container"></div>
+    </div>
+
+    <div id="installed-apps" class="hidden app-container">
+      <h2>Installed apps</h2>
+      <div class="app-list container"></div>
     </div>
 
     <script>
@@ -143,18 +144,15 @@
         appCell.visitCountNode.textContent = '1 visit';
         appLinkNode.appendChild(appCell.visitCountNode);
 
-        var installedBadgeNode = document.createElement('div');
-        installedBadgeNode.classList.add('installed-badge');
-        appLinkNode.appendChild(installedBadgeNode);
-
         chrome.management.get(app.appId, function(extensionInfo) {
+          var parentNode = document.getElementById('suggested-apps');
           if (extensionInfo) {
-            appCell.node.classList.add('installed');
+            parentNode = document.getElementById('installed-apps');
           }
+
+          parentNode.querySelector('.app-list').appendChild(appCell.node);
+          parentNode.classList.remove('hidden');
         });
-
-
-        document.getElementById('apps').appendChild(appCell.node);
       }
 
       function processHistoryItems(startIndex, historyItems) {
@@ -179,8 +177,8 @@
           'text': '',
           'maxResults': 1000000000,
           'startTime': 0
-      },
-      processHistoryItems.bind(this, 0));
+          },
+          processHistoryItems.bind(this, 0));
     </script>
   </head>
 </html>
