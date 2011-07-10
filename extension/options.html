@@ -64,6 +64,34 @@
         text-align: center;
       }
 
+      .app .not-interested {
+        display: none;
+      }
+
+      .app:hover .not-interested {
+        display: block;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 0;
+        vertical-align: sub;
+        height: 0;
+        line-height: 0;
+        text-indent: -3px;
+        background: #ccc;
+        padding: 9px;
+        border-radius: 20px;
+        color: #fff;
+      }
+
+      app:hover .not-interested:hover {
+        background: #aaa;
+      }
+
+      #installed-apps .not-interested {
+        display: none !important;
+      }
+
       .app a {
         display: block;
         text-decoration: none;
@@ -102,6 +130,11 @@
 
     <div id="installed-apps" class="hidden app-container">
       <h2>Installed apps</h2>
+      <div class="app-list container"></div>
+    </div>
+
+    <div id="ignored-apps" class="hidden app-container">
+      <h2>Ignored apps</h2>
       <div class="app-list container"></div>
     </div>
 
@@ -144,12 +177,40 @@
         appCell.visitCountNode.textContent = '1 visit';
         appLinkNode.appendChild(appCell.visitCountNode);
 
-        var isInstalled = app.appId in installedAppIds;
-        var parentNode = document.getElementById(
-            isInstalled ? 'installed-apps' : 'suggested-apps');
+        var notInterestedNode = document.createElement('div');
+        notInterestedNode.classList.add('not-interested');
+        notInterestedNode.textContent = 'x';
+        appLinkNode.appendChild(notInterestedNode);
+        notInterestedNode.addEventListener(
+            'click',
+            function(event) {
+              event.stopPropagation();
+              event.preventDefault();
 
-        parentNode.querySelector('.app-list').appendChild(appCell.node);
-        parentNode.classList.remove('hidden');
+              appCell.node.parentNode.removeChild(appCell.node);
+              if (app.isIgnored()) {
+                app.setIsIgnored(true);
+                addToContainer('suggested-apps');
+              } else {
+                app.setIsIgnored(true);
+                addToContainer('ignored-apps');
+              }
+            },
+            false);
+
+        var containerId = 'suggested-apps';
+        if (app.appId in installedAppIds) {
+          containerId = 'installed-apps';
+        } else if (app.isIgnored()) {
+          containerId = 'ignored-apps';
+        }
+        addToContainer(containerId);
+
+        function addToContainer(containerId) {
+          var containerNode = document.getElementById(containerId);
+          containerNode.querySelector('.app-list').appendChild(appCell.node);
+          containerNode.classList.remove('hidden');
+        }
       }
 
       function processHistoryItems(startIndex, historyItems) {

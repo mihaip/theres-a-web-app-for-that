@@ -12,6 +12,11 @@
         var app = App.fromUrl(tab.url);
         if (!app) return;
 
+        if (app.isIgnored()) {
+          chrome.pageAction.hide(tabId);
+          return;
+        }
+
         chrome.management.get(app.appId, function(extensionInfo) {
           if (extensionInfo) {
             chrome.pageAction.setIcon({tabId: tabId, path: 'icon-installed19.png'});

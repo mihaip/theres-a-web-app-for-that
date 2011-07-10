@@ -27,6 +27,7 @@ function startsWith(str, prefix) {
 
 function App(appData) {
   this.appId = appData.app_id;
+  this.ignoredLocalStorageKey = 'ignored-' + this.appId;
   this.title = appData.title;
   this.iconUrl = appData.icon_url;
   this.matchUrls_ = appData.match_urls;
@@ -49,6 +50,18 @@ App.prototype.matchesUrl = function(urlHostname, urlPath) {
 
   return false;
 };
+
+App.prototype.isIgnored = function() {
+  return this.ignoredLocalStorageKey in localStorage;
+};
+
+App.prototype.setIsIgnored = function(value) {
+  if (value) {
+    localStorage[this.ignoredLocalStorageKey] = 1;
+  } else {
+    delete localStorage[this.ignoredLocalStorageKey];
+  }
+}
 
 App.cacheByUrlKey_ = {};
 
