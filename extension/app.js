@@ -14,10 +14,7 @@ var URL_RE_ = new RegExp(
                                           // escapes, and unicode characters.
       '(?::([0-9]+))?' +                  // port
     ')?' +
-    '([^?#]+)?' +                         // path
-    '(?:\\?([^#]*))?' +                   // query
-    '(?:#(.*))?' +                        // fragment
-    '$');
+    '([^?#]+)?');                         // path
 
 function endsWith(str, suffix) {
   var l = str.length - suffix.length;
@@ -53,24 +50,36 @@ App.prototype.matchesUrl = function(urlHostname, urlPath) {
   return false;
 };
 
+App.cacheByUrlKey_ = {};
+
 App.fromUrl = function(url) {
   if (!App.apps_) {
     App.parseAppData_();
   }
 
   var urlParts = url.match(URL_RE_);
+  var urlScheme = urlParts[1];
+
+  if (urlScheme != 'http' && urlScheme != 'https') return undefined;
+
   var urlHostname = urlParts[3];
   var urlPath = urlParts[5];
 
   if (!urlHostname) return;
 
+  var cacheKey = urlHostname + urlPath;
+
+  if (cacheKey in App.cacheByUrlKey_) {
+    return App.cacheByUrlKey_[cacheKey];
+  }
+
   for (var i = 0, app; app = App.apps_[i]; i++) {
     if (app.matchesUrl(urlHostname, urlPath)) {
-      return app;
+      return App.cacheByUrlKey_[cacheKey] = app;
     }
   }
 
-  return undefined;
+  return App.cacheByUrlKey_[cacheKey] = undefined;
 };
 
 App.parseAppData_ = function() {
