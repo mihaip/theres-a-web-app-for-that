@@ -3768,10 +3768,6 @@ var APP_DATA = [
       [
         "anynewbooks.com",
         ""
-      ],
-      [
-        "anynewbooks.com",
-        "/archives"
       ]
     ],
     "app_id": "gefphpbilnknofmmmjlgekgeclgajehk",
@@ -4064,7 +4060,7 @@ var APP_DATA = [
     "icon_url": "http://lh4.ggpht.com/praAlPHvnIRDumgQT0JJIootenIlb4YOnSdDTYexQEvR8D2Hzi7zEzJ7SEkzICeHXMzv0weR_g",
     "match_urls": [
       [
-        "embark.delta.com",
+        "delta.com",
         ""
       ]
     ],
@@ -4163,10 +4159,6 @@ var APP_DATA = [
     "icon_url": "http://lh5.ggpht.com/iAp7sJhGGCJI3eufj-xBzmh6wdyUiIICzuG4Y6KWVkKDesUAIK9LnOmwC2zlmSextefD-eH0LQ",
     "match_urls": [
       [
-        "m.onetsp.com",
-        ""
-      ],
-      [
         "onetsp.com",
         ""
       ]
@@ -4177,10 +4169,6 @@ var APP_DATA = [
   {
     "icon_url": "http://lh6.ggpht.com/8U_bEx6ki6aCgOCo22Bs1VlkuqCdttv04vtowGX_4k4pGbngsjlzWmmqdzRXlV7qtWGNlKvyww",
     "match_urls": [
-      [
-        "gliffy.com",
-        "/gliffy/openid"
-      ],
       [
         "gliffy.com",
         ""
@@ -4242,10 +4230,6 @@ var APP_DATA = [
     "match_urls": [
       [
         "zootool.com",
-        "/zoo"
-      ],
-      [
-        "zootool.com",
         ""
       ]
     ],
@@ -4300,8 +4284,8 @@ var APP_DATA = [
     "icon_url": "http://lh6.ggpht.com/e_iDMowW1fSeoTwGLXWVOL-Ik6rJT_WMaHJoGK8BLcKOILohvXSj09Eqh2HAQbE84TbNKhawyDM",
     "match_urls": [
       [
-        "my.nimbuzz.com",
-        "/web_client"
+        "nimbuzz.com",
+        ""
       ]
     ],
     "app_id": "aogjjhoakpgofjogelilmcdleibaennj",
@@ -4310,10 +4294,6 @@ var APP_DATA = [
   {
     "icon_url": "http://lh6.ggpht.com/RM6J1rd5ntgRP-JCx5rF2dhNTNr4c-9iEF0knnk7XCWO9Fj14Ms0EgJ_aqZ-s9jmYPk-zvSRnA",
     "match_urls": [
-      [
-        "gardenpuzzle.com",
-        "/projects/redesign/new"
-      ],
       [
         "gardenpuzzle.com",
         ""
@@ -4327,7 +4307,7 @@ var APP_DATA = [
     "match_urls": [
       [
         "gomockingbird.com",
-        "/mockingbird"
+        ""
       ]
     ],
     "app_id": "mglnbanmebacbohplmcogiompoijbhnm",
@@ -4350,10 +4330,6 @@ var APP_DATA = [
       [
         "liveshare.com",
         ""
-      ],
-      [
-        "liveshare.com",
-        "/my-streams"
       ]
     ],
     "app_id": "amncclkaihpiilkhkophmkeijlpnanjk",
@@ -4380,10 +4356,6 @@ var APP_DATA = [
       [
         "c9.io",
         ""
-      ],
-      [
-        "cloud9ide.com",
-        "/dashboard.html"
       ]
     ],
     "app_id": "nbdmccoknlfggadpfkmcpnamfnbkmkcp",
@@ -4483,10 +4455,6 @@ var APP_DATA = [
       [
         "lockerpulse.com",
         ""
-      ],
-      [
-        "m.lockerpulse.com",
-        ""
       ]
     ],
     "app_id": "gilnpgomgjbahckkbkjkdoaakmjohlnj",
@@ -4537,23 +4505,8 @@ var APP_DATA = [
     "title": "iCraigslist"
   },
   {
-    "icon_url": "http://lh6.ggpht.com/AmMe1axViprelYSxx0QrPly1Ejd21pkg1DxKygbsNtLmgGwKt8ZIAjdk6jz7Z0UsJJh3ta8ZEg",
-    "match_urls": [
-      [
-        "mail.google.com",
-        "/mail/mu"
-      ]
-    ],
-    "app_id": "ejidjjhkpiempkbhmpbfngldlkglhimk",
-    "title": "Offline Google Mail"
-  },
-  {
     "icon_url": "http://lh3.ggpht.com/4sKd9EhU10Y_wVbvU_fmNfCWe1q0nv1jJ351K1D6B6XEibTKoTKL5-f5t9C-UcHgMozxJjtbnlg",
     "match_urls": [
-      [
-        "cubeanywhere.com",
-        "/openid/login_google"
-      ],
       [
         "cubeanywhere.com",
         ""
@@ -4590,10 +4543,6 @@ var APP_DATA = [
       [
         "shareking.com",
         ""
-      ],
-      [
-        "shareking.com",
-        "/chart/SharekingChart.html"
       ]
     ],
     "app_id": "mnngpcpedmpmdkpakplhpdoeapkhmgja",
@@ -4602,10 +4551,6 @@ var APP_DATA = [
   {
     "icon_url": "http://lh4.ggpht.com/RUOub8Cwm7bLPZntjaAqDSo9mveWmnkFLqiJ0McUmv5nhbgZEUs3trJJeWVdxEv5hpinmOSymA",
     "match_urls": [
-      [
-        "absolutist.com",
-        "/online/bubbleshooter/chrome-bubbleshooter.html"
-      ],
       [
         "absolutist.com",
         "/online/bubbleshooter"
@@ -4868,11 +4813,7 @@ var APP_DATA = [
     "icon_url": "http://lh4.ggpht.com/19htdtRHgB5v3ersdlm27l1DJS214wMh9jkOXJa-oA-F4rAkN3shUJcal5dGeRCHr0gohA4vuA",
     "match_urls": [
       [
-        "secure.outright.com",
-        "/open_id/login"
-      ],
-      [
-        "secure.outright.com",
+        "outright.com",
         ""
       ]
     ],
